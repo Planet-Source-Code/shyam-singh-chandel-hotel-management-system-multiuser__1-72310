@@ -1,0 +1,402 @@
+[Root]
+Most Recent Package=HMS1
+
+
+[Package|Dep File 1|Root]
+SubWizProgID=PDWizard.DepPkgSubWiz
+BuildFolder=F:\SSC SOFTWARES\NEW CREATION\HOTEL MANAGEMENT4\HOTEL MANAGEMENT4
+
+[Package|Dep File 1|Configure DAO ISAMs]
+Applicable=Yes
+Xbase=Yes
+Excel=No
+Exchange=No
+Text=No
+Jet 2.x=Yes
+Lotus=No
+Paradox=No
+
+[Package|Dep File 1|Configure DAO ODBC]
+JetWorkspace=Yes
+ODBCDirect=Yes
+
+[Package|Dep File 1|Files Found]
+
+[Package|Dep File 1|Files Released]
+
+[Package|Dep File 1|Missing Dependency Information]
+
+[Package|Dep File 1|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\MSRDO20.DLL=
+
+[Package|Dep File 1|Files Added]
+
+[Package|Dep File 1|Files Removed]
+
+[Package|Dep File 1|Files In Project]
+F:\SSC SOFTWARES\NEW CREATION\HOTEL MANAGEMENT4\HOTEL MANAGEMENT4\HotelManagement.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO2535.TLB=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=Yes
+C:\WINDOWS\system32\MSJET35.DLL=Yes
+C:\WINDOWS\system32\MSJTER35.DLL=Yes
+C:\WINDOWS\system32\MSJINT35.DLL=Yes
+C:\WINDOWS\system32\vbajet32.dll=Yes
+C:\WINDOWS\system32\expsrv.dll=Yes
+C:\WINDOWS\system32\MSRD2X35.DLL=Yes
+C:\WINDOWS\system32\MSREPL35.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\WINDOWS\system32\VB5DB.DLL=Yes
+C:\WINDOWS\system32\MSXBSE35.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\WINDOWS\system32\MSRDO20.DLL=Yes
+C:\WINDOWS\system32\RDOCURS.DLL=Yes
+C:\WINDOWS\system32\odbc32.dll=Yes
+
+[Package|Dep File 1|Configure Registry Files]
+Applicable=
+
+[Package|Dep File 1|Configure Remote Servers]
+Applicable=
+
+[Package|Dep File 1|Install Locations]
+F:\SSC SOFTWARES\NEW CREATION\HOTEL MANAGEMENT4\HOTEL MANAGEMENT4\HotelManagement.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO2535.TLB=$(MSDAOPath)
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=$(MSDAOPath)
+C:\WINDOWS\system32\MSJET35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSXBSE35.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\WINDOWS\system32\MSRDO20.DLL=$(WinSysPath)
+C:\WINDOWS\system32\RDOCURS.DLL=$(WinSysPath)
+C:\WINDOWS\system32\odbc32.dll=$(WinSysPathSysFile)
+
+[Package|Dep File 1|Configure Shared Files]
+Applicable=
+
+[Package|Dep File 1|DepFile]
+DepCabFile=HotelManagement.CAB
+DepCabRun=HotelManagement.INF
+
+[Package|Dep File 1|Package]
+PackageFolder=F:\SSC SOFTWARES\NEW CREATION\HOTEL MANAGEMENT4\HOTEL MANAGEMENT4
+ProjectFolder=F:\SSC SOFTWARES\NEW CREATION\HOTEL MANAGEMENT4\HOTEL MANAGEMENT4
+ServerSideCab=
+File1=F:\SSC SOFTWARES\NEW CREATION\HOTEL MANAGEMENT4\HOTEL MANAGEMENT4\HotelManagement.DEP
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|HMS|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=F:\SSC SOFTWARES\NEW CREATION\HOTEL MANAGEMENT4\HOTEL MANAGEMENT4\setup
+
+[Package|HMS|Configure DAO ISAMs]
+Applicable=Yes
+Xbase=Yes
+Excel=No
+Exchange=No
+Text=No
+Jet 2.x=Yes
+Lotus=No
+Paradox=No
+
+[Package|HMS|Configure DAO ODBC]
+JetWorkspace=Yes
+ODBCDirect=Yes
+
+[Package|HMS|Files Found]
+
+[Package|HMS|Files Released]
+
+[Package|HMS|Missing Dependency Information]
+
+[Package|HMS|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\MSRDO20.DLL=
+
+[Package|HMS|Files Added]
+
+[Package|HMS|Files Removed]
+
+[Package|HMS|Files In Project]
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO2535.TLB=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=Yes
+C:\WINDOWS\system32\MSJET35.DLL=Yes
+C:\WINDOWS\system32\MSJTER35.DLL=Yes
+C:\WINDOWS\system32\MSJINT35.DLL=Yes
+C:\WINDOWS\system32\vbajet32.dll=Yes
+C:\WINDOWS\system32\expsrv.dll=Yes
+C:\WINDOWS\system32\MSRD2X35.DLL=Yes
+C:\WINDOWS\system32\MSREPL35.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\WINDOWS\system32\VB5DB.DLL=Yes
+C:\WINDOWS\system32\MSXBSE35.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\WINDOWS\system32\MSRDO20.DLL=Yes
+C:\WINDOWS\system32\RDOCURS.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+F:\SSC SOFTWARES\NEW CREATION\HOTEL MANAGEMENT4\HOTEL MANAGEMENT\HotelManagement.exe=Yes
+
+[Package|HMS|Configure Registry Files]
+Applicable=No
+
+[Package|HMS|Configure Remote Servers]
+Applicable=No
+
+[Package|HMS|Install Locations]
+F:\SSC SOFTWARES\NEW CREATION\HOTEL MANAGEMENT4\HOTEL MANAGEMENT4\HotelManagement.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO2535.TLB=$(MSDAOPath)
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=$(MSDAOPath)
+C:\WINDOWS\system32\MSJET35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSXBSE35.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\WINDOWS\system32\MSRDO20.DLL=$(WinSysPath)
+C:\WINDOWS\system32\RDOCURS.DLL=$(WinSysPath)
+C:\WINDOWS\system32\odbc32.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+F:\SSC SOFTWARES\NEW CREATION\HOTEL MANAGEMENT4\HOTEL MANAGEMENT\HotelManagement.exe=$(AppPath)
+
+[Package|HMS|Configure Shared Files]
+Applicable=Yes
+F:\SSC SOFTWARES\NEW CREATION\HOTEL MANAGEMENT4\HOTEL MANAGEMENT4\HotelManagement.exe=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+F:\SSC SOFTWARES\NEW CREATION\HOTEL MANAGEMENT4\HOTEL MANAGEMENT\HotelManagement.exe=Yes
+
+[Package|HMS|DepFile]
+DepCabFile=HotelManagement.CAB
+DepCabRun=HotelManagement.INF
+
+[Package|HMS|Distribution]
+Type=single
+Size=
+Title=Hotel Management System
+
+[Package|HMS|IconGroups]
+Group0=Hotel Management System
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|HMS|Hotel Management System]
+Icon1=HotelManagement.exe
+Title1=Hotel Management System
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|HMS|Package]
+PackageFolder=F:\SSC SOFTWARES\NEW CREATION\HOTEL MANAGEMENT4\HOTEL MANAGEMENT4\setup
+ProjectFolder=F:\SSC SOFTWARES\NEW CREATION\HOTEL MANAGEMENT4\HOTEL MANAGEMENT
+ServerSideCab=
+File1=F:\SSC SOFTWARES\NEW CREATION\HOTEL MANAGEMENT4\HOTEL MANAGEMENT4\setup\setup.exe
+File2=F:\SSC SOFTWARES\NEW CREATION\HOTEL MANAGEMENT4\HOTEL MANAGEMENT4\setup\Setup.Lst
+File3=F:\SSC SOFTWARES\NEW CREATION\HOTEL MANAGEMENT4\HOTEL MANAGEMENT4\setup\HotelManagement.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|HMS1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=F:\SSC SOFTWARES\NEW CREATION\HOTEL MANAGEMENT Network\HOTEL MANAGEMENT\setup
+
+[Package|HMS1|Configure DAO ISAMs]
+Applicable=Yes
+Xbase=Yes
+Excel=No
+Exchange=No
+Text=No
+Jet 2.x=Yes
+Lotus=No
+Paradox=No
+
+[Package|HMS1|Configure DAO ODBC]
+JetWorkspace=Yes
+ODBCDirect=Yes
+
+[Package|HMS1|Files Found]
+
+[Package|HMS1|Files Released]
+
+[Package|HMS1|Missing Dependency Information]
+C:\WINDOWS\system32\USSTYLE.OCX=
+
+[Package|HMS1|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\MSRDO20.DLL=
+
+[Package|HMS1|Files Added]
+F:\SSC SOFTWARES\NEW CREATION\HOTEL MANAGEMENT Network\HOTEL MANAGEMENT\USSTYLE.lib=
+F:\SSC SOFTWARES\NEW CREATION\HOTEL MANAGEMENT Network\HOTEL MANAGEMENT\SCR\1.JPG=
+F:\SSC SOFTWARES\NEW CREATION\HOTEL MANAGEMENT Network\HOTEL MANAGEMENT\SCR\2.JPG=
+F:\SSC SOFTWARES\NEW CREATION\HOTEL MANAGEMENT Network\HOTEL MANAGEMENT\SCR\3.JPG=
+F:\SSC SOFTWARES\NEW CREATION\HOTEL MANAGEMENT Network\HOTEL MANAGEMENT\SCR\4.JPG=
+F:\SSC SOFTWARES\NEW CREATION\HOTEL MANAGEMENT Network\HOTEL MANAGEMENT\SCR\5.JPG=
+F:\SSC SOFTWARES\NEW CREATION\HOTEL MANAGEMENT Network\HOTEL MANAGEMENT\SCR\6.JPG=
+
+[Package|HMS1|Files Removed]
+
+[Package|HMS1|Files In Project]
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO2535.TLB=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=Yes
+C:\WINDOWS\system32\MSJET35.DLL=Yes
+C:\WINDOWS\system32\MSJTER35.DLL=Yes
+C:\WINDOWS\system32\MSJINT35.DLL=Yes
+C:\WINDOWS\system32\vbajet32.dll=Yes
+C:\WINDOWS\system32\expsrv.dll=Yes
+C:\WINDOWS\system32\MSRD2X35.DLL=Yes
+C:\WINDOWS\system32\MSREPL35.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\WINDOWS\system32\VB5DB.DLL=Yes
+C:\WINDOWS\system32\MSXBSE35.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\WINDOWS\system32\MSRDO20.DLL=Yes
+C:\WINDOWS\system32\RDOCURS.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+F:\SSC SOFTWARES\NEW CREATION\HOTEL MANAGEMENT Network\HOTEL MANAGEMENT\HotelManagement1.exe=Yes
+C:\WINDOWS\system32\USSTYLE.OCX=Yes
+F:\SSC SOFTWARES\NEW CREATION\HOTEL MANAGEMENT Network\HOTEL MANAGEMENT\USSTYLE.lib=Yes
+F:\SSC SOFTWARES\NEW CREATION\HOTEL MANAGEMENT Network\HOTEL MANAGEMENT\SCR\1.JPG=Yes
+F:\SSC SOFTWARES\NEW CREATION\HOTEL MANAGEMENT Network\HOTEL MANAGEMENT\SCR\2.JPG=Yes
+F:\SSC SOFTWARES\NEW CREATION\HOTEL MANAGEMENT Network\HOTEL MANAGEMENT\SCR\3.JPG=Yes
+F:\SSC SOFTWARES\NEW CREATION\HOTEL MANAGEMENT Network\HOTEL MANAGEMENT\SCR\4.JPG=Yes
+F:\SSC SOFTWARES\NEW CREATION\HOTEL MANAGEMENT Network\HOTEL MANAGEMENT\SCR\5.JPG=Yes
+F:\SSC SOFTWARES\NEW CREATION\HOTEL MANAGEMENT Network\HOTEL MANAGEMENT\SCR\6.JPG=Yes
+
+[Package|HMS1|Configure Registry Files]
+Applicable=No
+
+[Package|HMS1|Configure Remote Servers]
+Applicable=No
+
+[Package|HMS1|Install Locations]
+F:\SSC SOFTWARES\NEW CREATION\HOTEL MANAGEMENT4\HOTEL MANAGEMENT4\HotelManagement.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO2535.TLB=$(MSDAOPath)
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=$(MSDAOPath)
+C:\WINDOWS\system32\MSJET35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSXBSE35.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\WINDOWS\system32\MSRDO20.DLL=$(WinSysPath)
+C:\WINDOWS\system32\RDOCURS.DLL=$(WinSysPath)
+C:\WINDOWS\system32\odbc32.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+F:\SSC SOFTWARES\NEW CREATION\HOTEL MANAGEMENT4\HOTEL MANAGEMENT\HotelManagement.exe=$(AppPath)
+F:\SSC SOFTWARES\NEW CREATION\HOTEL MANAGEMENT Network\HOTEL MANAGEMENT\HotelManagement1.exe=$(AppPath)
+C:\WINDOWS\system32\USSTYLE.OCX=$(WinSysPath)
+F:\SSC SOFTWARES\NEW CREATION\HOTEL MANAGEMENT Network\HOTEL MANAGEMENT\USSTYLE.lib=$(AppPath)
+F:\SSC SOFTWARES\NEW CREATION\HOTEL MANAGEMENT Network\HOTEL MANAGEMENT\SCR\1.JPG=$(AppPath)
+F:\SSC SOFTWARES\NEW CREATION\HOTEL MANAGEMENT Network\HOTEL MANAGEMENT\SCR\2.JPG=$(AppPath)
+F:\SSC SOFTWARES\NEW CREATION\HOTEL MANAGEMENT Network\HOTEL MANAGEMENT\SCR\3.JPG=$(AppPath)
+F:\SSC SOFTWARES\NEW CREATION\HOTEL MANAGEMENT Network\HOTEL MANAGEMENT\SCR\4.JPG=$(AppPath)
+F:\SSC SOFTWARES\NEW CREATION\HOTEL MANAGEMENT Network\HOTEL MANAGEMENT\SCR\5.JPG=$(AppPath)
+F:\SSC SOFTWARES\NEW CREATION\HOTEL MANAGEMENT Network\HOTEL MANAGEMENT\SCR\6.JPG=$(AppPath)
+
+[Package|HMS1|Configure Shared Files]
+Applicable=Yes
+F:\SSC SOFTWARES\NEW CREATION\HOTEL MANAGEMENT4\HOTEL MANAGEMENT4\HotelManagement.exe=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+F:\SSC SOFTWARES\NEW CREATION\HOTEL MANAGEMENT4\HOTEL MANAGEMENT\HotelManagement.exe=Yes
+F:\SSC SOFTWARES\NEW CREATION\HOTEL MANAGEMENT Network\HOTEL MANAGEMENT\HotelManagement1.exe=Yes
+F:\SSC SOFTWARES\NEW CREATION\HOTEL MANAGEMENT Network\HOTEL MANAGEMENT\USSTYLE.lib=Yes
+F:\SSC SOFTWARES\NEW CREATION\HOTEL MANAGEMENT Network\HOTEL MANAGEMENT\SCR\1.JPG=Yes
+F:\SSC SOFTWARES\NEW CREATION\HOTEL MANAGEMENT Network\HOTEL MANAGEMENT\SCR\2.JPG=Yes
+F:\SSC SOFTWARES\NEW CREATION\HOTEL MANAGEMENT Network\HOTEL MANAGEMENT\SCR\3.JPG=Yes
+F:\SSC SOFTWARES\NEW CREATION\HOTEL MANAGEMENT Network\HOTEL MANAGEMENT\SCR\4.JPG=Yes
+F:\SSC SOFTWARES\NEW CREATION\HOTEL MANAGEMENT Network\HOTEL MANAGEMENT\SCR\5.JPG=Yes
+F:\SSC SOFTWARES\NEW CREATION\HOTEL MANAGEMENT Network\HOTEL MANAGEMENT\SCR\6.JPG=Yes
+
+[Package|HMS1|DepFile]
+DepCabFile=HotelManagement.CAB
+DepCabRun=HotelManagement.INF
+
+[Package|HMS1|Distribution]
+Type=single
+Size=
+Title=Hotel Management System
+
+[Package|HMS1|IconGroups]
+Group0=Hotel Management System
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|HMS1|Hotel Management System]
+Icon1=HotelManagement.exe
+Title1=Hotel Management System
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|HMS1|Package]
+PackageFolder=F:\SSC SOFTWARES\NEW CREATION\HOTEL MANAGEMENT Network\HOTEL MANAGEMENT\setup
+ProjectFolder=F:\SSC SOFTWARES\NEW CREATION\HOTEL MANAGEMENT Network\HOTEL MANAGEMENT
+ServerSideCab=
+File1=F:\SSC SOFTWARES\NEW CREATION\HOTEL MANAGEMENT Network\HOTEL MANAGEMENT\setup\setup.exe
+File2=F:\SSC SOFTWARES\NEW CREATION\HOTEL MANAGEMENT Network\HOTEL MANAGEMENT\setup\Setup.Lst
+File3=F:\SSC SOFTWARES\NEW CREATION\HOTEL MANAGEMENT Network\HOTEL MANAGEMENT\setup\HotelManagement1.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz

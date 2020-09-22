@@ -1,0 +1,67 @@
+ÿW
+    Help?
+
+User Login: - The Default User Name and Password which will allow to login are
+                                             User Name = rkm
+                                              Password   = rkm
+        When the user will logon into the software he can change the User Name and Password by using following steps:
+1.	Click Admin
+2.	Click User
+3.	Enter the desired user name and password and click Create User.
+         Now the Default user name and password will be killing.
+
+Note: - Before entering any registration or restaurant sales Record should be Enter of the Rooms and Menu Items, Which you      
+       can create by using Following Steps:
+
+    Room Entry
+
+1.	Click Admin ' Click Room Entry.
+2.	Enter Room No. in the box of "Room No." and press enter key. Now enter Room charges and press Enter Key, Enter  
+              type of Room then press Enter Key, Insert the features of Room and Press Enter Key or Click "Update Room" Button.
+3.	Click in Room No. List on any Room No. to Edit Room Record. After Clicking Make the Changes and press "Edit         
+       Room Record" button.
+
+    Menu Items Entry
+1.	Click "Restaurant" ' Click "Menu Stock Entry"
+2.	Enter Item No. press Enter Key, Enter Item Name Press Enter Key, Enter Item Price Press Enter Key, Enter Opening     
+            Stock of Items and Press Enter Key, Enter Name of Stock Creator and Press Enter Key.
+  
+    Restaurant Sales
+1.	Choose the Sales Type First. It may be Cash or Hotel Customer. 
+2.	If you will choose Cash then start billing now or you will choose Hotel Customer then Select the Customer No by           
+      double clicking and start billing.
+3.	Press Enter Key to choose the Items from the given Item list. Or double click by mouse in the Item List.
+4.	Now give the Quantity of Item, and press Enter Key.
+5.	Give the Sales Man Name and press Enter Key.                                                                                                              
+ 
+    Note: - Now the one items bill has been created. If you want to sale more items then follow the same process again and 
+again.
+
+6.	Click Print button to Print the bill.
+7.	Choose the bill no from the list and click Print and click Quit to quit the billing job.          
+
+   Customer Registration
+1.	Click "Reception" ' Click "Room Reservation"
+2.	Enter All Required Fields and Press "Add" button.
+3.	We can Add, Edit, Delete the Record of Registration.
+
+  Confirm Registration
+1.	Click "Reception" ' Click "Confirm Registration"
+2.	Click in "Room No." box and choose the Empty Room No form the List.
+3.	Enter the Advance Money
+4.	Click "Confirm Registration" Button.
+
+  Check out
+1.	Select the Customer No from the List and you will get all the calculation automatically it self.
+2.	Choose Payment Type and fill the desired requirements.
+3.	Click Done Button
+4.	Click Print Button
+5.	Choose the Customer No. form Customer No. List
+6.	Click Print then Click Quit to finish the job.
+
+   View Option allows the view the status of the Chosen matter.
+
+
+
+
+                                                Thanks
